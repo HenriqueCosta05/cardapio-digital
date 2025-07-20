@@ -21,7 +21,7 @@ export default function Menu() {
   }, []);
 
   return (
-    <section className="w-full min-h-screen flex justify-center items-center p-2 gap-8 flex-col bg-slate-100">
+    <section className="w-full min-h-screen flex justify-center items-center p-2 gap-8 flex-col bg-white-theme">
       {items ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {items.map((item) => (
