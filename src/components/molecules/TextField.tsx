@@ -35,8 +35,7 @@ export default function TextField(Props: TextFieldProps) {
                 </label>
                 <DynamicIcon
                     name={iconName}
-                    className="absolute top-3 left-4 h-6 w-6 stroke-slate-700 peer-disabled:cursor-not-allowed"
-                    size={4}
+                    className="absolute top-4 left-4 h-4 w-4 stroke-slate-700 peer-disabled:cursor-not-allowed"
                 />
                 <small className="absolute flex w-full justify-between px-4 py-1 text-xs text-slate-400 transition peer-invalid:text-red-500">
                     <span>{helperText}</span>
