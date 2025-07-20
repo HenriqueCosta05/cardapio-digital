@@ -12,7 +12,7 @@ interface CardProps {
 
 export default function Card({ title, description, pricing, image, cta, onClick }: CardProps) {
     return (
-        <div className="flex items-center bg-white rounded-lg shadow-md overflow-hidden w-full" onClick={onClick}>
+        <div className="flex items-center bg-white rounded-lg shadow-md overflow-hidden w-full md:flex-col-reverse" onClick={onClick}>
             <div className="p-4 flex-1">
                 <p className="text-sm text-gray-500 mb-1 font-bold">{cta}</p>
                 <h2 className="text-lg font-bold text-gray-900">{title}</h2>

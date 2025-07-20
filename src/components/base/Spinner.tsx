@@ -12,8 +12,6 @@ export default function Spinner() {
                 aria-labelledby="title-04b desc-04b"
                 className="animate h-10 w-10 animate-spin"
             >
-                <title id="title-04b">Icon title</title>
-                <desc id="desc-04b">Some desc</desc>
                 <circle
                     cx="12"
                     cy="12"
