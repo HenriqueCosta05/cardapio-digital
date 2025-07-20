@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface CardProps {
     title: string;
     description?: string;
@@ -14,9 +12,9 @@ interface CardProps {
 
 export default function Card({ title, description, pricing, image, cta, onClick }: CardProps) {
     return (
-        <div className="flex items-center bg-white rounded-xl shadow-md overflow-hidden w-full max-w-md" onClick={onClick}>
+        <div className="flex items-center bg-white rounded-lg shadow-md overflow-hidden w-full" onClick={onClick}>
             <div className="p-4 flex-1">
-                <p className="text-sm text-gray-500 mb-1">{cta}</p>
+                <p className="text-sm text-gray-500 mb-1 font-bold">{cta}</p>
                 <h2 className="text-lg font-bold text-gray-900">{title}</h2>
                 {description && <p className="text-sm text-gray-700 mt-1">{description}</p>}
                 {pricing !== undefined && (
@@ -28,7 +26,7 @@ export default function Card({ title, description, pricing, image, cta, onClick 
                 )}
             </div>
 
-            <picture className="w-32 h-32 flex-shrink-0 p-1">
+            <picture className="w-32 h-32 flex-shrink-0 p-2">
                 <img
                     src={image.src}
                     alt={image.alt || title}

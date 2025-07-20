@@ -1,0 +1,152 @@
+[
+    {
+      "id": "1",
+      "name": "Classic Cheeseburger",
+      "description": "Beef patty, cheddar cheese, lettuce, tomato, and house sauce on a toasted bun.",
+      "pricing": 9.99,
+      "feature": "Popular",
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Spicy Chicken Sandwich",
+      "description": "Crispy chicken breast with spicy mayo and pickles.",
+      "pricing": 8.49,
+      "feature": "Novo!",
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "3",
+      "name": "BBQ Bacon Burger",
+      "description": "Grilled beef patty, crispy bacon, onion rings, cheddar, and BBQ sauce.",
+      "pricing": 10.49,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Mushroom Swiss Burger",
+      "description": "Beef patty with sautéed mushrooms and melted Swiss cheese.",
+      "pricing": 9.79,
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Double Stack Burger",
+      "description": "Two juicy beef patties with cheese, pickles, ketchup, and onions.",
+      "pricing": 11.29,
+      "feature": "Popular",
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Crispy Chicken Tenders",
+      "description": "Three breaded chicken tenders served with your choice of dip.",
+      "pricing": 7.99,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Loaded Fries",
+      "description": "Fries loaded with cheddar, bacon, and ranch drizzle.",
+      "pricing": 5.99,
+      "feature": "Tempo Limitado",
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "8",
+      "name": "Veggie Burger",
+      "description": "Plant-based patty with lettuce, tomato, and avocado.",
+      "pricing": 8.99,
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "9",
+      "name": "Grilled Chicken Wrap",
+      "description": "Grilled chicken with veggies and chipotle sauce in a wrap.",
+      "pricing": 7.49,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Mac & Cheese Bites",
+      "description": "Fried golden bites filled with creamy mac and cheese.",
+      "pricing": 4.99,
+      "feature": "Novo!",
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Buffalo Chicken Sandwich",
+      "description": "Spicy buffalo chicken, blue cheese, lettuce, and tomato.",
+      "pricing": 8.79,
+      "feature": "Tempo Limitado",
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "12",
+      "name": "Classic Fries",
+      "description": "Crispy golden fries served with ketchup.",
+      "pricing": 2.99,
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "13",
+      "name": "Onion Rings",
+      "description": "Thick-cut onion rings fried in golden batter.",
+      "pricing": 3.99,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Avocado Bacon Burger",
+      "description": "Beef patty with avocado, crispy bacon, and ranch.",
+      "pricing": 10.29,
+      "feature": "Novo!",
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Chicken Caesar Wrap",
+      "description": "Grilled chicken, romaine lettuce, parmesan, and Caesar dressing.",
+      "pricing": 7.29,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Kids' Mini Burger",
+      "description": "Small burger with cheese and ketchup for kids.",
+      "pricing": 4.49,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Sweet Potato Fries",
+      "description": "Crispy sweet potato fries served with chipotle mayo.",
+      "pricing": 3.79,
+      "imageUrl": "/assets/baiao.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Churros",
+      "description": "Warm cinnamon sugar churros with chocolate dip.",
+      "pricing": 3.99,
+      "feature": "Tempo Limitado",
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "19",
+      "name": "Bacon Egg Burger",
+      "description": "Breakfast-style burger with egg, bacon, and cheese.",
+      "pricing": 9.49,
+      "imageUrl": "/assets/macarrao.jpeg"
+    },
+    {
+      "id": "20",
+      "name": "Strawberry Milkshake",
+      "description": "Creamy milkshake with fresh strawberries and whipped cream.",
+      "pricing": 4.99,
+      "feature": "Popular",
+      "imageUrl": "/assets/macarrao.jpeg"
+    }
+  ]
+  
