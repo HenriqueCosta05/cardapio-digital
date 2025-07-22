@@ -13,7 +13,7 @@ interface TextFieldProps {
     iconName: string;
 }
 export default function TextField(Props: TextFieldProps) {
-    const { label, id, placeholder, value, variant = "base", onChange, helperText, iconName} = Props;
+    const { label, id, placeholder, value, variant = "base", onChange, helperText, iconName, name } = Props;
 
     return (
         <>
@@ -21,7 +21,7 @@ export default function TextField(Props: TextFieldProps) {
                 <input
                     id={id}
                     type={variant === "password" ? "password" : "text"}
-                    name="id-l11"
+                    name={name}
                     value={value}
                     placeholder={placeholder}
                     className="peer relative h-12 w-full rounded border border-slate-200 px-4 pl-12 text-slate-500 placeholder-transparent outline-none transition-all autofill:bg-white invalid:border-red-500 invalid:text-red-500 focus:border-slate-500 focus:outline-none invalid:focus:border-red-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 z-1000"
@@ -29,7 +29,7 @@ export default function TextField(Props: TextFieldProps) {
                 />
                 <label
                     htmlFor={id}
-                    className="absolute left-2 -top-2 z-[1] cursor-text px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full before:transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:left-10 peer-placeholder-shown:text-base peer-autofill:-top-2 peer-required:after:text-red-500 peer-required:after:content-['\00a0*'] peer-invalid:text-red-500 peer-focus:-top-4 peer-focus:left-2 peer-focus:cursor-default peer-focus:text-xs peer-focus:text-white peer-invalid:peer-focus:text-red-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
+                    className="absolute left-2 -top-2 z-[1] cursor-text px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full before:transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:left-10 peer-placeholder-shown:text-base peer-autofill:-top-2 peer-required:after:text-red-500 peer-required:after:content-['\00a0*'] peer-invalid:text-red-500 peer-focus:-top-4 peer-focus:left-2 peer-focus:cursor-default peer-focus:text-xs peer-focus:text-slate-400 peer-invalid:peer-focus:text-red-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
                 >
                     {label}
                 </label>
